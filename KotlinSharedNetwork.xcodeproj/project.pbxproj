@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E553736721B68F5F00DE37F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553736621B68F5F00DE37F6 /* AppDelegate.swift */; };
+		E553736921B68F5F00DE37F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553736821B68F5F00DE37F6 /* ViewController.swift */; };
+		E553736C21B68F5F00DE37F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E553736A21B68F5F00DE37F6 /* Main.storyboard */; };
+		E553736E21B68F5F00DE37F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E553736D21B68F5F00DE37F6 /* Assets.xcassets */; };
+		E553737121B68F5F00DE37F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E553736F21B68F5F00DE37F6 /* LaunchScreen.storyboard */; };
+		E553737C21B68F5F00DE37F6 /* KotlinSharedNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553737B21B68F5F00DE37F6 /* KotlinSharedNetworkTests.swift */; };
+		E553738721B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553738621B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E553737821B68F5F00DE37F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E553735B21B68F5F00DE37F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E553736221B68F5F00DE37F6;
+			remoteInfo = KotlinSharedNetwork;
+		};
+		E553738321B68F5F00DE37F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E553735B21B68F5F00DE37F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E553736221B68F5F00DE37F6;
+			remoteInfo = KotlinSharedNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E553736321B68F5F00DE37F6 /* KotlinSharedNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinSharedNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E553736621B68F5F00DE37F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E553736821B68F5F00DE37F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E553736B21B68F5F00DE37F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E553736D21B68F5F00DE37F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E553737021B68F5F00DE37F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E553737221B68F5F00DE37F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E553737721B68F5F00DE37F6 /* KotlinSharedNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinSharedNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E553737B21B68F5F00DE37F6 /* KotlinSharedNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinSharedNetworkTests.swift; sourceTree = "<group>"; };
+		E553737D21B68F5F00DE37F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E553738221B68F5F00DE37F6 /* KotlinSharedNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinSharedNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E553738621B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinSharedNetworkUITests.swift; sourceTree = "<group>"; };
+		E553738821B68F5F00DE37F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E553736021B68F5F00DE37F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E553737421B68F5F00DE37F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E553737F21B68F5F00DE37F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E553735A21B68F5E00DE37F6 = {
+			isa = PBXGroup;
+			children = (
+				E553736521B68F5F00DE37F6 /* KotlinSharedNetwork */,
+				E553737A21B68F5F00DE37F6 /* KotlinSharedNetworkTests */,
+				E553738521B68F5F00DE37F6 /* KotlinSharedNetworkUITests */,
+				E553736421B68F5F00DE37F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E553736421B68F5F00DE37F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E553736321B68F5F00DE37F6 /* KotlinSharedNetwork.app */,
+				E553737721B68F5F00DE37F6 /* KotlinSharedNetworkTests.xctest */,
+				E553738221B68F5F00DE37F6 /* KotlinSharedNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E553736521B68F5F00DE37F6 /* KotlinSharedNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				E553736621B68F5F00DE37F6 /* AppDelegate.swift */,
+				E553736821B68F5F00DE37F6 /* ViewController.swift */,
+				E553736A21B68F5F00DE37F6 /* Main.storyboard */,
+				E553736D21B68F5F00DE37F6 /* Assets.xcassets */,
+				E553736F21B68F5F00DE37F6 /* LaunchScreen.storyboard */,
+				E553737221B68F5F00DE37F6 /* Info.plist */,
+			);
+			path = KotlinSharedNetwork;
+			sourceTree = "<group>";
+		};
+		E553737A21B68F5F00DE37F6 /* KotlinSharedNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E553737B21B68F5F00DE37F6 /* KotlinSharedNetworkTests.swift */,
+				E553737D21B68F5F00DE37F6 /* Info.plist */,
+			);
+			path = KotlinSharedNetworkTests;
+			sourceTree = "<group>";
+		};
+		E553738521B68F5F00DE37F6 /* KotlinSharedNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E553738621B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift */,
+				E553738821B68F5F00DE37F6 /* Info.plist */,
+			);
+			path = KotlinSharedNetworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E553736221B68F5F00DE37F6 /* KotlinSharedNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E553738B21B68F5F00DE37F6 /* Build configuration list for PBXNativeTarget "KotlinSharedNetwork" */;
+			buildPhases = (
+				E553735F21B68F5F00DE37F6 /* Sources */,
+				E553736021B68F5F00DE37F6 /* Frameworks */,
+				E553736121B68F5F00DE37F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinSharedNetwork;
+			productName = KotlinSharedNetwork;
+			productReference = E553736321B68F5F00DE37F6 /* KotlinSharedNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E553737621B68F5F00DE37F6 /* KotlinSharedNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E553738E21B68F5F00DE37F6 /* Build configuration list for PBXNativeTarget "KotlinSharedNetworkTests" */;
+			buildPhases = (
+				E553737321B68F5F00DE37F6 /* Sources */,
+				E553737421B68F5F00DE37F6 /* Frameworks */,
+				E553737521B68F5F00DE37F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E553737921B68F5F00DE37F6 /* PBXTargetDependency */,
+			);
+			name = KotlinSharedNetworkTests;
+			productName = KotlinSharedNetworkTests;
+			productReference = E553737721B68F5F00DE37F6 /* KotlinSharedNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E553738121B68F5F00DE37F6 /* KotlinSharedNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E553739121B68F5F00DE37F6 /* Build configuration list for PBXNativeTarget "KotlinSharedNetworkUITests" */;
+			buildPhases = (
+				E553737E21B68F5F00DE37F6 /* Sources */,
+				E553737F21B68F5F00DE37F6 /* Frameworks */,
+				E553738021B68F5F00DE37F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E553738421B68F5F00DE37F6 /* PBXTargetDependency */,
+			);
+			name = KotlinSharedNetworkUITests;
+			productName = KotlinSharedNetworkUITests;
+			productReference = E553738221B68F5F00DE37F6 /* KotlinSharedNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E553735B21B68F5F00DE37F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sixthsolution;
+				TargetAttributes = {
+					E553736221B68F5F00DE37F6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E553737621B68F5F00DE37F6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E553736221B68F5F00DE37F6;
+					};
+					E553738121B68F5F00DE37F6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E553736221B68F5F00DE37F6;
+					};
+				};
+			};
+			buildConfigurationList = E553735E21B68F5F00DE37F6 /* Build configuration list for PBXProject "KotlinSharedNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E553735A21B68F5E00DE37F6;
+			productRefGroup = E553736421B68F5F00DE37F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E553736221B68F5F00DE37F6 /* KotlinSharedNetwork */,
+				E553737621B68F5F00DE37F6 /* KotlinSharedNetworkTests */,
+				E553738121B68F5F00DE37F6 /* KotlinSharedNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E553736121B68F5F00DE37F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E553737121B68F5F00DE37F6 /* LaunchScreen.storyboard in Resources */,
+				E553736E21B68F5F00DE37F6 /* Assets.xcassets in Resources */,
+				E553736C21B68F5F00DE37F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E553737521B68F5F00DE37F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E553738021B68F5F00DE37F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E553735F21B68F5F00DE37F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E553736921B68F5F00DE37F6 /* ViewController.swift in Sources */,
+				E553736721B68F5F00DE37F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E553737321B68F5F00DE37F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E553737C21B68F5F00DE37F6 /* KotlinSharedNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E553737E21B68F5F00DE37F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E553738721B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E553737921B68F5F00DE37F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E553736221B68F5F00DE37F6 /* KotlinSharedNetwork */;
+			targetProxy = E553737821B68F5F00DE37F6 /* PBXContainerItemProxy */;
+		};
+		E553738421B68F5F00DE37F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E553736221B68F5F00DE37F6 /* KotlinSharedNetwork */;
+			targetProxy = E553738321B68F5F00DE37F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E553736A21B68F5F00DE37F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E553736B21B68F5F00DE37F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E553736F21B68F5F00DE37F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E553737021B68F5F00DE37F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E553738921B68F5F00DE37F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E553738A21B68F5F00DE37F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E553738C21B68F5F00DE37F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				INFOPLIST_FILE = KotlinSharedNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixthsolution.KotlinSharedNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E553738D21B68F5F00DE37F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				INFOPLIST_FILE = KotlinSharedNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixthsolution.KotlinSharedNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E553738F21B68F5F00DE37F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				INFOPLIST_FILE = KotlinSharedNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixthsolution.KotlinSharedNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinSharedNetwork.app/KotlinSharedNetwork";
+			};
+			name = Debug;
+		};
+		E553739021B68F5F00DE37F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				INFOPLIST_FILE = KotlinSharedNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixthsolution.KotlinSharedNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinSharedNetwork.app/KotlinSharedNetwork";
+			};
+			name = Release;
+		};
+		E553739221B68F5F00DE37F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				INFOPLIST_FILE = KotlinSharedNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixthsolution.KotlinSharedNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinSharedNetwork;
+			};
+			name = Debug;
+		};
+		E553739321B68F5F00DE37F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				INFOPLIST_FILE = KotlinSharedNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixthsolution.KotlinSharedNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinSharedNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E553735E21B68F5F00DE37F6 /* Build configuration list for PBXProject "KotlinSharedNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E553738921B68F5F00DE37F6 /* Debug */,
+				E553738A21B68F5F00DE37F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E553738B21B68F5F00DE37F6 /* Build configuration list for PBXNativeTarget "KotlinSharedNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E553738C21B68F5F00DE37F6 /* Debug */,
+				E553738D21B68F5F00DE37F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E553738E21B68F5F00DE37F6 /* Build configuration list for PBXNativeTarget "KotlinSharedNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E553738F21B68F5F00DE37F6 /* Debug */,
+				E553739021B68F5F00DE37F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E553739121B68F5F00DE37F6 /* Build configuration list for PBXNativeTarget "KotlinSharedNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E553739221B68F5F00DE37F6 /* Debug */,
+				E553739321B68F5F00DE37F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E553735B21B68F5F00DE37F6 /* Project object */;
+}
