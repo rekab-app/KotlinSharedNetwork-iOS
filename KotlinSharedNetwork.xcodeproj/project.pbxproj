@@ -14,6 +14,9 @@
 		E553737121B68F5F00DE37F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E553736F21B68F5F00DE37F6 /* LaunchScreen.storyboard */; };
 		E553737C21B68F5F00DE37F6 /* KotlinSharedNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553737B21B68F5F00DE37F6 /* KotlinSharedNetworkTests.swift */; };
 		E553738721B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553738621B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift */; };
+		E553739521B6902E00DE37F6 /* SharedNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E553739421B6902E00DE37F6 /* SharedNetwork.framework */; };
+		E553739621B6902E00DE37F6 /* SharedNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E553739421B6902E00DE37F6 /* SharedNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E553739A21B692F400DE37F6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553739921B692F400DE37F6 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E553739721B6902E00DE37F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E553739621B6902E00DE37F6 /* SharedNetwork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E553736321B68F5F00DE37F6 /* KotlinSharedNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinSharedNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E553736621B68F5F00DE37F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +64,8 @@
 		E553738221B68F5F00DE37F6 /* KotlinSharedNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinSharedNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E553738621B68F5F00DE37F6 /* KotlinSharedNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinSharedNetworkUITests.swift; sourceTree = "<group>"; };
 		E553738821B68F5F00DE37F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E553739421B6902E00DE37F6 /* SharedNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedNetwork.framework; path = "KotlinSharedNetwork/xcode-frameworks/SharedNetwork.framework"; sourceTree = "<group>"; };
+		E553739921B692F400DE37F6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E553739521B6902E00DE37F6 /* SharedNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +97,7 @@
 		E553735A21B68F5E00DE37F6 = {
 			isa = PBXGroup;
 			children = (
+				E553739421B6902E00DE37F6 /* SharedNetwork.framework */,
 				E553736521B68F5F00DE37F6 /* KotlinSharedNetwork */,
 				E553737A21B68F5F00DE37F6 /* KotlinSharedNetworkTests */,
 				E553738521B68F5F00DE37F6 /* KotlinSharedNetworkUITests */,
@@ -103,6 +124,7 @@
 				E553736D21B68F5F00DE37F6 /* Assets.xcassets */,
 				E553736F21B68F5F00DE37F6 /* LaunchScreen.storyboard */,
 				E553737221B68F5F00DE37F6 /* Info.plist */,
+				E553739921B692F400DE37F6 /* PostCell.swift */,
 			);
 			path = KotlinSharedNetwork;
 			sourceTree = "<group>";
@@ -132,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E553738B21B68F5F00DE37F6 /* Build configuration list for PBXNativeTarget "KotlinSharedNetwork" */;
 			buildPhases = (
+				E553739821B690F700DE37F6 /* ShellScript */,
 				E553735F21B68F5F00DE37F6 /* Sources */,
 				E553736021B68F5F00DE37F6 /* Frameworks */,
 				E553736121B68F5F00DE37F6 /* Resources */,
+				E553739721B6902E00DE37F6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +275,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E553739821B690F700DE37F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/KotlinSharedNetwork/xcode-frameworks\"\n./gradlew :SharedNetwork:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E553735F21B68F5F00DE37F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +302,7 @@
 			files = (
 				E553736921B68F5F00DE37F6 /* ViewController.swift in Sources */,
 				E553736721B68F5F00DE37F6 /* AppDelegate.swift in Sources */,
+				E553739A21B692F400DE37F6 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +479,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KotlinSharedNetwork/xcode-frameworks",
+				);
 				INFOPLIST_FILE = KotlinSharedNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +502,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9CYE9NBLT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KotlinSharedNetwork/xcode-frameworks",
+				);
 				INFOPLIST_FILE = KotlinSharedNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
