@@ -1,0 +1,3 @@
+[submodule "KotlinSharedNetwork-android"]
+	path = KotlinSharedNetwork-android
+	url = https://github.com/rekab-app/KotlinSharedNetwork-android.git
